@@ -1,23 +1,31 @@
-body{
+body {
     color: lightgray
 }
 
 /*header*/
-header{
+header {
     height: 75px;
-    background-color: rgb(26, 26, 26)
+    background-color: rgb(23, 26, 33)
 }
-nav{
-    display: inline-block;
-}
-.linav{
+
+nav {
     display: inline-block;
 }
 
-#banner{
+.linav {
+    display: inline-block;
+}
+
+#banner {
     height: 70vh;
 }
 
-main{
-    background-color: rgb(26, 42, 59)
+main {
+    background-color: rgb(24, 45, 74)
+}
+
+footer {
+    color: rgb(150, 158, 171);
+    height: 75px;
+    background-color: rgb(23, 26, 33);
 }

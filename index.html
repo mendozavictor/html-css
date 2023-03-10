@@ -1,55 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi Steam</title>
     <link rel="stylesheet" href="./css/estilos.css">
+    <title>Mi Steam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- <p>Una p</p>
+    <p>Segunda p</p>
+    <span>Este primer span</span>
+    <span>Este segundo span</span> -->
     <header>
-        <img src="./img/header_logo.png" alt="logo de Steam" height="44px" width="176px">
+        <img src="./img/logo_steam.svg" alt="logo de steam" height="44" width="176">
         <nav>
-            <ul>
-                <a href="https://store.steampowered.com/?snr=1_4_4__global-header">
-                    <li class="linav">TIENDA</li>
+            <ul id="ulNav">
+                <a href="./otra.html">
+                    <li class="liNav">OTRA</li>
                 </a>
-                <a href="https://steamcommunity.com/">
-                    <li class="linav">COMUNIDAD</li>
+                <a href="#footer">
+                    <li class="liNav">FOOTER</li>
                 </a>
-                <a href="https://store.steampowered.com/about/?snr=1_4_4__global-header">
-                    <li class="linav">ACERCA DE</li>
+                <a href="https://cadif1.com" target="_blank">
+                    <li class="liNav">CADIF1</li>
                 </a>
-                <a href="https://help.steampowered.com/es/">
-                    <li class="linav">SOPORTE</li>
+                <a href="">
+                    <li class="liNav">SOPORTE</li>
                 </a>
             </ul>
         </nav>
     </header>
     <div id="banner">
         <img src="https://cdn.cloudflare.steamstatic.com/steam/clusters/frontpage/53d62cce754388a033e141be/page_bg_spanish.jpg?t=1677616037"
-            alt="banner" width="100%" height="100%">
+            alt="imagen banner" width="100%" height="100%" id="">
     </div>
-
     <main>
-        <section>hola</section>
-        <section>hello</section>
-        <section>aloha</section>
-    </main>
-    <footer>
-        <div id="pie">
-            <nav>
-                <ul>
-                    <a href="http://www.valvesoftware.com/about">
-                        <li class="linav">acerca de valve</li>
-                    </a>
-                </ul>
-            </nav>
+        <aside>
+            <ul>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+                <li>enlace</li>
+            </ul>
+        </aside>
+        <div id="sections">
+            <audio src="./audio/MakeItHappen.mp3" autoplay loop controls></audio>
+            <section id="categoria">
+                <article class="artCategoria" id="ac1">
+                    <div id="dac1">
+                        mundo abierto
+                    </div>
+                </article>
+                <article class="artCategoria" id="ac2">
+                    <div id="dac2">
+                        simulacion
+                    </div>
+                </article>
+                <article class="artCategoria" id="ac3">
+                    <div id="dac3">
+                        ciudades y asentamientos
+                    </div>
+                </article>
+                <article class="artCategoria" id="ac4">
+                    <div id="dac4">
+                        novelas visuales
+                    </div>
+                </article>
+            </section>
+            <section>
+                <video src="./video/productionID_4253156.mp4" autoplay loop controls width="100%" height="550px"></video>
+            </section>
+            <section></section>
         </div>
-    </footer>
+    </main>
+    <footer id="footer"></footer>
+
+    <!-- <ul id="ulSection">
+                    <li>qwrqw</li>
+                    <li>qwrqwr</li>
+                    <li>
+                        <ol>
+                            <li>adfaf</li>
+                            <li>ffgsg</li>
+                            <li>gdfgsd</li>
+                            <li>dfgsdfgd</li>
+                            <li>eragaerg</li>
+                        </ol>
+                    </li>
+                    <li>aergaerg</li>
+                    <li>aergag</li>
+                    <li>awergawerg</li>
+                    <li>awergawegaweg</li>
+                </ul> -->
 </body>
 
 </html>
